@@ -1,8 +1,13 @@
-# Belly-Button-Challenge
 # Belly Button Biodiversity Dashboard
 
-This project is an interactive data visualization dashboard that explores the Belly Button Biodiversity dataset, which catalogs microbial species (OTUs) found in human navels. Built using D3.js and Plotly.js, the dashboard allows users to select a test subject ID from a dropdown menu and view the top 10 OTUs found in that individual's sample via a horizontal bar chart. A dynamic bubble chart shows the full OTU breakdown, and a metadata panel provides demographic information for the selected subject.
+This project is an interactive dashboard that visualizes data on the microbes (OTUs) found in human belly buttons. Using D3.js and Plotly.js, it allows users to explore the top 10 bacteria types found in different test subjects.
 
-The data is fetched from an external JSON URL using D3, and charts update in real-time when a new sample is selected. The dashboard is fully responsive and deployed via GitHub Pages for easy access. This assignment demonstrates core skills in JavaScript, API data handling, DOM manipulation, and interactive data visualization. All logic is contained within a single JavaScript file (`app.js`) located in the `static/js/` directory. The layout and functionality closely follow project guidelines from the UCI Data Analytics Bootcamp, Module 14 Challenge.
+Users can select a test subject ID from a dropdown menu to view:
+- A horizontal bar chart showing the top 10 OTUs in their sample
+- A bubble chart displaying all OTUs found
+- A panel with demographic information for the selected subject
 
-**Resources:** This project was completed with support from Xpert Assistant & ChatGPT.
+The data is loaded from an external JSON source and updates automatically when a new sample is selected. All the JavaScript code is contained in one file (`static/js/app.js`), and the project is styled with Bootstrap for a clean, responsive layout.
+
+
+**Resources:** Built with help from ChatGPT and Xpert Assistant.
